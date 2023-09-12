@@ -25,18 +25,19 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active pad" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Produtos</a>
+                        <a class="nav-link pad" href="#produtos">Produtos</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link pad" href="#rodape" role="button" 
+                            aria-expanded="false">
                             Contato
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn btn-outline-success whats kkjl" aria-current="page"
+                        <a class="nav-link btn btn-outline-success whats kkjl pad" aria-current="page"
                             href="https://api.whatsapp.com/send?phone=18996489916">
                             <img src="/img/whatsapp.svg" alt="Logo do WhatsApp" width="20px" style="margin-right: 5px;
                     margin-bottom: 2px;">Faça seu Pedido
@@ -55,7 +56,9 @@
                 <section class="banner">
                     <h1>Uma delícia de sabor</h1>
                     <p class="margin-cima-baixo">Para os clientes mais exigentes.</p>
-                    <button href="#produtos">VER MAIS <strong>PRODUTOS</strong></button>
+                    <a href="#produtos">
+                        <button>VER MAIS <strong>PRODUTOS</strong></button>
+                    </a>
                 </section>
             </div>
         </div>
@@ -114,7 +117,7 @@
         <div class="row fundo2">
             <div class="col-sm-12 d-flex justify-content-center align-items-center">
                 <div class="col-sm-3 principal d-flex justify-content-center align-items-center"
-                    style="background-image: url(img/banner-Menu22.jpeg);">
+                    style="background-image: url(img/banner-menu22.jpeg);">
 
                 </div>
 
@@ -160,7 +163,7 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <!-- conteudo da linha do conteiner -->
-                <div class="col-4 cont" style="text-align: left;">
+                <div class="col-5 cont" style="text-align: left;">
                     <div class="mb-3">
                         <h1 class="corFale">FALE CONOSCO</h1>
                     </div>
@@ -243,26 +246,26 @@
                 </div>
             </div>
 
+            <footer id="rodape">
+                <div class="row corCabecalho3 pt-3 pb-3">
 
-            <div class="row corCabecalho3 pt-3 pb-3">
+
+                    <div class="row">
+                        <div class="col-6 d-flex align-items-center">
+                            <h2><img src="/img/logo (3).png" alt="" style="width: 40px;"> Estação do Lanche</h2>
+                        </div>
 
 
-                <div class="row">
-                    <div class="col-6 d-flex align-items-center">
-                        <h2><img src="/img/logo (3).png" alt="" style="width: 40px;"> Estação do Lanche</h2>
+                        <div class="col-6 text-end">
+                            <p>(18) 99123-1234 / (18) 3636-3636</p>
+                            <p>Rua Lorem Ipsum Nº 123, Centro - Birigui / SP</p>
+                        </div>
                     </div>
 
 
-                    <div class="col-6 text-end">
-                        <p>(18) 99123-1234 / (18) 3636-3636</p>
-                        <p>Rua Lorem Ipsum Nº 123, Centro - Birigui / SP</p>
-                    </div>
                 </div>
-
-
-            </div>
         </div>
-
+        </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
             crossorigin="anonymous"></script>

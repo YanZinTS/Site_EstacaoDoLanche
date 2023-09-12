@@ -109,10 +109,13 @@
     width: 70%;
 }
 
+.invert{
+    margin-left: 350px;
+}
+
 .img2{
     border-radius: 10px;
     width: 70%;
-    transform: scaleX(-1);
 }
 
 .bannerPequeno{
@@ -122,10 +125,6 @@
 
 .bannerPequeno p{
     font-weight: lighter;
-}
-
-.invert{
-    transform: scaleX(-1);
 }
 
 .cormapa{
@@ -214,9 +213,6 @@ iframe {
     transform: scale(1.05); 
 }
 
-.bannerPequeno.invert:hover {
-    transform: scale(1.05);
-}
 
 .fundoCinza:hover {
     transform: scale(1.1);
@@ -230,4 +226,10 @@ iframe {
 
 .corFale{
     color: red;
+}
+
+.pad{
+    padding: 5px;
+    margin: 10px;
+    font-size: 13pt;
 }
