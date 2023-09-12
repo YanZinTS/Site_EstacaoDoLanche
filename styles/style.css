@@ -1,0 +1,233 @@
+.text-center {
+    color: black;
+}
+
+.cabecalho {
+    background-color: #FFD704;
+    padding: 20px;
+}
+
+.corCabecalho2 {
+    background-color: #FFD704;
+}
+
+.corCabecalho3 {
+    background-color: #FFD704;
+}
+
+.principal {
+    height: 220px;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    border-radius: 28px;
+    padding-left: 45px;
+    width: 400px;
+}
+
+.secundario {
+    background-color: black;
+    height: 500px;
+}
+
+.fundo1 {
+    background-color: #F4F4F8;
+    height: 300px;
+}
+
+.fundo2 {
+    background-color: #fff1ae;
+    height: 300px;
+}
+
+.fundoBranco {
+    background-color: white;
+    height: 692px;
+}
+
+.corBrancoDiv {
+    background-color: white;
+    height: 72px;
+}
+
+.fundoVermelho2 {
+    background-color: #DE0A0A;
+}
+
+.corVerde {
+    background-color: #00FF1A;
+    height: 353px;
+}
+
+.fundoCinza {
+    background-color: #D9D9D9;
+    height: 197px;
+}
+
+.fundoCinza2 {
+    background-color: #D9D9D9;
+    height: 152px;
+}
+
+.whats {
+    width: 176px;
+    background-color: #00FF1A;
+    color: #fff;
+}
+
+.whats img{
+    fill: #fff;
+}
+
+.margin-cima-baixo{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: lighter;
+    font-size: 19pt;
+}
+
+.banner h1{
+    color: white;
+    font-size: 55pt;
+    font-weight: bold;
+}
+
+.banner button{
+    padding: 15px;
+    border-radius: 70px;
+    width: 350px;
+    border: none;
+    background-color: rgb(222, 23, 23);
+    color: white;
+    cursor: pointer; /*muda o cursor para mãozinha*/
+    font-size: 10pt;
+}
+
+.img{
+    border-radius: 10px;
+    width: 70%;
+}
+
+.img2{
+    border-radius: 10px;
+    width: 70%;
+    transform: scaleX(-1);
+}
+
+.bannerPequeno{
+    border-radius: 10px;
+    color: white;
+}
+
+.bannerPequeno p{
+    font-weight: lighter;
+}
+
+.invert{
+    transform: scaleX(-1);
+}
+
+.cormapa{
+    background-color: #FFD704;
+    height: 10px;
+    width: 100px;
+}
+
+.button{
+    background-color: #DE0A0A;
+    color: #FFD704;
+    border-radius: 30px;
+    width: 160px;
+    border: none;
+    padding: 5px;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.fundoCinza, .fundoCinza2 {
+    border: 7px solid #DE0A0A;
+    background-position: center;
+    background-size: cover;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+.button2{
+    background-color: #DE0A0A;
+    color: #FFD704;
+    border-radius: 30px;
+    width: 160px;
+    border: none;
+    padding: 5px;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+.segue {
+    color: yellow;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.27);
+    font-family: 'Roboto';
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.plataforma {
+    display: flex;
+    align-items: center;
+}
+
+.plataforma p {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.tik{
+    padding: 10px 5px;
+}
+
+.img-grande img{
+    width: 325px;
+}
+
+.nome{
+    color: #DE0A0A;
+    font-size: 21pt;
+    font-weight: bold;
+}
+
+.preco{
+    font-size: 17pt;
+}
+
+.bannerPequeno {
+    transition: transform 0.3s ease; 
+}
+
+.bannerPequeno:hover {
+    transform: scale(1.05); 
+}
+
+.bannerPequeno.invert:hover {
+    transform: scale(1.05);
+}
+
+.fundoCinza:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.fundoCinza2:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.corFale{
+    color: red;
+}
