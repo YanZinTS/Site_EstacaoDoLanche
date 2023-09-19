@@ -32,12 +32,12 @@
 
 .fundo1 {
     background-color: #F4F4F8;
-    height: 300px;
+    min-height: 300px;
 }
 
 .fundo2 {
     background-color: #fff1ae;
-    height: 300px;
+    min-height: 300px;
 }
 
 .fundoBranco {
@@ -197,7 +197,7 @@ iframe {
 
 .nome{
     color: #DE0A0A;
-    font-size: 21pt;
+    font-size: 20pt;
     font-weight: bold;
 }
 
@@ -232,4 +232,10 @@ iframe {
     padding: 5px;
     margin: 10px;
     font-size: 13pt;
+}
+
+.yan {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 42px !important;
 }
